@@ -1,21 +1,23 @@
 import React from "react";
-import kem from "../assets/images/ke.png";
-import {AiFillLinkedin,AiFillInstagram} from "react-icons/ai";
-import {BsFacebook,BsTelegram} from "react-icons/bs";
+import kem from "../assets/images/dd.png";
+import { AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import { BsFacebook, BsTelegram } from "react-icons/bs";
+
 const Hero = () => {
-  const social_media = [
-    "logo-linkedin",
-    "logo-instagram",
-    "logo-facebook",
-    "logo-telegram",
-  ];
+  const socialMediaLinks = {
+    linkedin: "https://www.linkedin.com/in/kemal-siraj/",
+    instagram: "https://www.instagram.com/invites/contact/?i=cndpl8vk7fmt&utm_content=pl38otv",
+    facebook: "https://www.facebook.com/kemale.sirage/",
+    telegram: "https://t.me/konjoyeww",
+  };
+
   return (
     <section
       id="home"
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center h-full">
-        <img src={kem} alt="" className="md:w-11/12 h-full object-cover" />
+        <img src={kem} alt="" className="md:w-3/5 sm:w-2/5 w-2/5" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
@@ -27,25 +29,27 @@ const Hero = () => {
             My Name is <span>Kemal Siraj</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-            Fullstack Developer
+            Front end Developer
           </h4>
           <button className="btn-primary mt-8">Contact Me</button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
-            {social_media?.map((icon) => (
-              <div
-                key={icon}
-                className="text-gray-600 hover:text-white cursor-pointer "
+            {Object.entries(socialMediaLinks).map(([media, link]) => (
+              <a
+                key={media}
+                href={link}
+                target="_blank"
+                className="text-gray-600 hover:text-white cursor-pointer"
               >
-                {icon === "logo-linkedin" ? (
+                {media === "linkedin" ? (
                   <AiFillLinkedin />
-                ) : icon === "logo-instagram" ? (
+                ) : media === "instagram" ? (
                   <AiFillInstagram />
-                ) : icon === "logo-facebook" ? (
+                ) : media === "facebook" ? (
                   <BsFacebook />
                 ) : (
                   <BsTelegram />
                 )}
-              </div>
+              </a>
             ))}
           </div>
         </div>
