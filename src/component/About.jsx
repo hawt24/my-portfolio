@@ -1,10 +1,9 @@
 import React from "react";
-import aboutImg from "../assets/images/kem.png";
 const About = () => {
   const info = [
-    { text: "Years experience", count: "04" },
-    { text: "Completed Projects", count: "24" },
-    { text: "Companies Work", count: "06" },
+    { text: "Years experience", count: "02" },
+    { text: "Completed Projects", count: "7" },
+    { text: "Companies Work", count: "1" },
   ];
   return (
     <section id="about" className="py-10 text-white">
@@ -17,10 +16,18 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                I am konjoyew. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+                I'm Kemal, currently enrolled in the Coding Academy at African
+                to Silicon Valley (A2SV), renowned for its 70% acceptance rate
+                at Google for Software Engineer positions in 2022. My journey at
+                A2SV has significantly honed my problem-solving and algorithmic
+                skills through the successful completion of over 600 problems on
+                platforms like LeetCode, Codeforces, and HackerRank. In
+                addition, I'm pursuing a Bachelor of Science at Addis Ababa
+                Science and Technology University, where I'm building a strong
+                foundation in engineering. I'm enthusiastic about contributing
+                to the tech industry, especially in the field of machine
+                learning. I'm actively seeking job and internship opportunities
+                to apply and further develop my skills.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
@@ -35,19 +42,13 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/Kemal_Siraj_Resume_26-10-2023-17-51-19 (1).pdf" download>
+              <a href="Kemal_Siraj_Resume.pdf" download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
           </div>
           <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
-            <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg ">
-              <img
-                src={aboutImg}
-                alt=""
-                className="w-full object-cover bg-cyan-600 rounded-xl"
-              />
-            </div>
+  
           </div>
         </div>
       </div>
