@@ -1,5 +1,4 @@
 import React from "react";
-// import hireMe from "../assets/images/kemal.png";
 const Hireme = () => {
   return (
     <section id="hireme" className="py-10 px-3 text-white">
@@ -23,11 +22,6 @@ const Hireme = () => {
           </p>
           <button className="btn-primary mt-10">Say Hello</button>
         </div>
-        {/* <img
-          src={hireMe}
-          alt=""  
-          className="lg:h-[32rem] h-80 lg:absolute bottom-0 -right-3 object-cover"
-        /> */}
       </div>
     </section>
   );
