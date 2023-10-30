@@ -1,5 +1,5 @@
 import React from "react";
-import kem from "../assets/images/dd.png";
+import kem from "../assets/images/kem.png";
 import { AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import { BsFacebook, BsTelegram } from "react-icons/bs";
 
@@ -29,7 +29,7 @@ const Hero = () => {
             My Name is <span>Kemal Siraj</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-            Front end Developer
+            Front-End Developer
           </h4>
           <button className="btn-primary mt-8">Contact Me</button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">

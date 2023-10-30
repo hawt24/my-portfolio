@@ -2,7 +2,6 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/blog.png";
 import project2 from "../assets/images/cearSight.png";
-import project_person from "../assets/images/ke.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
@@ -70,9 +69,6 @@ const Project = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>
-        <div className="lg:block hidden">
-          <img src={project_person} alt="" />
         </div>
       </div>
     </section>
