@@ -16,18 +16,18 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                I'm Kemal, currently enrolled in the Coding Academy at African
-                to Silicon Valley (A2SV), renowned for its 70% acceptance rate
-                at Google for Software Engineer positions in 2022. My journey at
-                A2SV has significantly honed my problem-solving and algorithmic
-                skills through the successful completion of over 600 problems on
-                platforms like LeetCode, Codeforces, and HackerRank. In
-                addition, I'm pursuing a Bachelor of Science at Addis Ababa
-                Science and Technology University, where I'm building a strong
-                foundation in engineering. I'm enthusiastic about contributing
-                to the tech industry, especially in the field of machine
-                learning. I'm actively seeking job and internship opportunities
-                to apply and further develop my skills.
+              Certainly! Here's the revised version:
+
+---
+
+Hello, I'm Kemal Siraj, an electromechanical engineering student at Addis Ababa Science and Technology University (AASTU)
+. Additionally, I am an active member of a2sv, an organization that has successfully placed over 50 students in full-time and
+ internship roles at renowned tech companies, 
+such as Google, Amazon, LinkedIn, Palantir, Databricks, Bloomberg, and more. My journey into 
+programming started in my third year of electromechanical engineering when I began studying Python. 
+This early exposure marked my shift towards software engineering. As part of a2sv, I've solved over 600 data structure and algorithm 
+questions using Python on platforms like LeetCode and Codeforces, gaining valuable experience. Beyond coding,
+ I cherish family time, indulge in football as a Liverpool fan, and immerse myself in reading books.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
