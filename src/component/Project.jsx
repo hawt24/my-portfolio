@@ -2,6 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/blog.png";
 import project2 from "../assets/images/cearSight.png";
+import Project3 from "../assets/images/shoes.png"
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
@@ -18,6 +19,11 @@ const Project = () => {
       img: project2,
       name: "Trachoma early detection app",
       github_link: "https://github.com/natiyeshi/clearSight",
+    },
+    {
+      img: Project3,
+      name: "E-Commerce Search and Filtering System with React shoes",
+      github_link: "https://github.com/hawt24/e-commerce",
     },
  
  
