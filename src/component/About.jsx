@@ -18,9 +18,8 @@ const About = () => {
               <p className="text-justify leading-7 w-11/12 mx-auto">
 Hello, I'm Kemal Siraj, an electromechanical engineering student at Addis Ababa Science and Technology University (AASTU)
 . Additionally, I am an active member of a2sv, an organization that has successfully placed over 50 students in full-time and
- internship roles at renowned tech companies, 
-such as Google, Amazon, LinkedIn, Palantir, Databricks, Bloomberg, and more. My journey into 
-programming started in my third year of electromechanical engineering when I began studying Python. 
+ internship roles at renowned tech companies, such as Google, Amazon, LinkedIn, Palantir, Databricks, Bloomberg, and more.
+ My journey into programming started in my third year of electromechanical engineering when I began studying Python. 
 This early exposure marked my shift towards software engineering. As part of a2sv, I've solved over 600 data structure and algorithm 
 questions using Python on platforms like LeetCode and Codeforces, gaining valuable experience. Beyond coding,
  I cherish family time, indulge in football as a Liverpool fan, and immerse myself in reading books.
