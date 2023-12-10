@@ -16,10 +16,6 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-              Certainly! Here's the revised version:
-
----
-
 Hello, I'm Kemal Siraj, an electromechanical engineering student at Addis Ababa Science and Technology University (AASTU)
 . Additionally, I am an active member of a2sv, an organization that has successfully placed over 50 students in full-time and
  internship roles at renowned tech companies, 
@@ -42,7 +38,7 @@ questions using Python on platforms like LeetCode and Codeforces, gaining valuab
               </div>
               <br />
               <br />
-              <a href="Kemal_Siraj_Resume.pdf" download>
+              <a href="Kemal-Siraj-CV (1).pdf" download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
